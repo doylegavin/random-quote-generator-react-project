@@ -6,7 +6,6 @@ import {FaTwitter, FaQuoteLeft,FaQuoteRight} from 'react-icons/fa';
 interface Quote {
   quote: string;
   author: string;
-  year: number;
 }
 
 const getRandomQuote = (): Quote => {
